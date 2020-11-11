@@ -612,6 +612,10 @@ a.active {
   opacity: 1;
 }
 
+.animatedModal02-on .close-popup-modal {
+  opacity: 1;
+}
+
 .modal-content h2 {
   font-family: "Playfair Display", serif;
   font-size: 40px;
