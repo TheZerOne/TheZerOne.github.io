@@ -104,15 +104,20 @@ $(document).ready(function () {
     });
 
     //animatedModal
-    $("#demo01,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
-    $("#demo02").animatedModal02();
+    $("#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
+
+
+    $("#demo01").animatedModal({modalTarget:"animatedModal01"});
+    $("#demo02").animatedModal({modalTarget:"animatedModal02"});
+    $("#demo03").animatedModal({modalTarget:"animatedModal03"});
+
+    // for (var i = 1; i < 3; i++) {
+    //     $("#demo0" + i).animatedModal({
+    //         modalTarget:"animatedModal-0" + i,
+    //     });
+    // }
+
     
-    
-
-
-
-
-
     // Contact Form 	
 
     // validate contact form

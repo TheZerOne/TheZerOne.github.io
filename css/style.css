@@ -275,7 +275,13 @@ a.active {
 ==================================================*/
 
 #home {
-  background: url(../img/home-bg-2.jpg);
+  background: url(../img/bg10.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+#about {
+  background: url(../img/bg1.png);
   background-size: cover;
   height: 100vh;
 }
@@ -541,7 +547,7 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
   font-style: normal;
   display: inline-block;
-  background-color: #425bb5;
+  /* background-color: #425bb5; */
   padding: 5px 20px;
   color: #fff;
   margin-top: 10px;
@@ -585,8 +591,8 @@ a.active {
 }
 
 .portfolio_item img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
 }
 
 .portfolio-padding {
@@ -627,6 +633,14 @@ a.active {
 }
 
 .animatedModal02-on .close-popup-modal {
+  opacity: 1;
+}
+
+.animatedModal01-on .close-popup-modal {
+  opacity: 1;
+}
+
+.animatedModal03-on .close-popup-modal {
   opacity: 1;
 }
 
