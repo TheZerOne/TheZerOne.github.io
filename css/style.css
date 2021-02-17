@@ -222,7 +222,7 @@ header {
   text-align: center;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  height: 65px;
+  /* height: 65px; */
 }
 
 nav ul {
@@ -274,10 +274,19 @@ a.active {
 /* home section
 ==================================================*/
 
-#home {
-  background: url(../img/bg10.png);
-  background-size: cover;
-  height: 100vh;
+@media (max-width: 600px) {
+  #home {
+    background: url(../img/bg12.png);
+    background-size: cover;
+    height: 100vh;
+  }
+}
+@media (min-width: 601px) {
+  #home {
+    background: url(../img/bg11.png);
+    background-size: cover;
+    height: 100vh;
+  }
 }
 
 #about {

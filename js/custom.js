@@ -122,7 +122,7 @@ $(document).ready(function () {
 
     // validate contact form
     $(function () {
-        $('#contact-form').validate({
+        $('#contact-form-none').validate({
             rules: {
                 name: {
                     required: true,
