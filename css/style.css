@@ -625,7 +625,7 @@ a.active {
 .close-popup-modal {
   float: right;
   margin: 20px;
-  font-size: 22px;
+  font-size: 32px;
   opacity: 0;
   cursor: pointer;
   -webkit-transition: all 0.3s;
