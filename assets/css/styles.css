@@ -238,7 +238,7 @@ img {
 
 /* ===== ABOUT =====*/
 .about__container {
-  row-gap: 2rem;
+  row-gap: 3rem;
   text-align: center;
 }
 .about__subtitle {
@@ -257,6 +257,7 @@ img {
   row-gap: 2rem;
   text-align: center;
 }
+
 .skills__subtitle {
   margin-bottom: var(--mb-2);
 }
@@ -438,9 +439,16 @@ img {
     width: 300px;
   }
   .work__container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+
+  .projectwork__container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     column-gap: 2rem;
+    row-gap: 2rem;
   }
   .contact__form {
     /* width: 360px; */
