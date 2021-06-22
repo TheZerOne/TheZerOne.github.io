@@ -10,6 +10,7 @@
 :root {
   --first-color: #4070f4;
   --second-color: #0e2431;
+  --savegreen: #138761;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -242,6 +243,18 @@ img {
   border-radius: 0.5rem;
 }
 .button:hover {
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+}
+
+.savebutton {
+  display: inline-block;
+  background-color: var(--savegreen);
+  color: #fff;
+  padding: 0.75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 0.5rem;
+}
+.savebutton:hover {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
 
