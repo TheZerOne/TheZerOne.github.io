@@ -246,6 +246,39 @@ img {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
 
+.main-btn {
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #4070f4;
+  padding: 0 40px;
+  font-size: 15px;
+  line-height: 48px;
+  border-radius: 0.5rem;
+  /* border-radius: 5rem; */
+  color: #fff;
+  cursor: pointer;
+  z-index: 5;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  background-color: #4070f4;
+}
+.main-btn:hover {
+  background-color: #fff;
+  color: #4070f4;
+  border-color: #4070f4;
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+}
+
 .savebutton {
   display: inline-block;
   background-color: var(--savegreen);
@@ -255,6 +288,39 @@ img {
   border-radius: 0.5rem;
 }
 .savebutton:hover {
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+}
+
+.main-btn-save {
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #138761;
+  padding: 0 40px;
+  font-size: 15px;
+  line-height: 48px;
+  border-radius: 0.5rem;
+  /* border-radius: 5rem; */
+  color: #fff;
+  cursor: pointer;
+  z-index: 5;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  background-color: #138761;
+}
+.main-btn-save:hover {
+  background-color: #fff;
+  color: #138761;
+  border-color: #138761;
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
 
