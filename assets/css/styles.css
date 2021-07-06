@@ -494,8 +494,8 @@ img {
   margin: 0 var(--mb-2);
 }
 
-/* ===== MEDIA QUERIES=====*/
-@media screen and (min-width: 768px) {
+/* ===== MEDIA QUERIES===== +10*/
+@media screen and (min-width: 778px) {
   body {
     margin: 0;
   }
