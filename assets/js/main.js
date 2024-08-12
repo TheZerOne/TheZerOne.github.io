@@ -36,17 +36,18 @@ const sr = ScrollReveal({
 /*SCROLL HOME*/
 sr.reveal('.home__title',{}); 
 sr.reveal('.button',{delay: 200}); 
-sr.reveal('.about section',{delay: 200}); 
+//sr.reveal('.about section',{delay: 200}); 
 sr.reveal('.main-btn',{delay: 400}); 
 sr.reveal('.mains-btn',{delay: 400});
+sr.reveal('.mainsav-btn',{delay: 400});
 sr.reveal('.main-btn-save',{delay: 400}); 
 sr.reveal('.home__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 
 /*SCROLL ABOUT*/
-sr.reveal('.about__img',{delay: 400}); 
-sr.reveal('.about__subtitle',{delay: 200}); 
-sr.reveal('.about__text',{delay: 400}); 
+//sr.reveal('.about__img',{delay: 400}); 
+//sr.reveal('.about__subtitle',{delay: 200}); 
+//sr.reveal('.about__text',{delay: 400}); 
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle',{}); 
