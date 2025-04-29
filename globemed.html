@@ -126,6 +126,18 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+        <script>
+            // Disable right-click
+            document.addEventListener('contextmenu', event => event.preventDefault());
+          
+            // Disable Ctrl+S (Save Page), Ctrl+U (View Source), F12 (Dev Tools)
+            document.addEventListener('keydown', function(event) {
+              if ((event.ctrlKey && (event.key === 's' || event.key === 'u')) || event.key === 'F12') {
+                event.preventDefault();
+                alert('This action is disabled.');
+              }
+            });
+          </script>
         
     </body>
 </html>

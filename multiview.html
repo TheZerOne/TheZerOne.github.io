@@ -10,9 +10,18 @@
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
         <title>Sathish Ravichandran</title>
+        <script>
+            function checkPassword() {
+              const password = prompt("Please enter the password to view case study:");
+              if (password !== "SR71Blackbird") {
+                alert("Wrong password! Please try again!");
+                window.location.href = "index.html"; // redirect if wrong
+              }
+            }
+          </script>
         <link rel="icon" href="assets/img/srlogo.png" type="image/gif">
     </head>
-    <body>
+    <body onload="checkPassword()">
         <!--===== HEADER =====-->
         <header class="l-header img-reponsive">
             <nav class="nav work-grid">
@@ -153,6 +162,18 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+        <script>
+            // Disable right-click
+            document.addEventListener('contextmenu', event => event.preventDefault());
+          
+            // Disable Ctrl+S (Save Page), Ctrl+U (View Source), F12 (Dev Tools)
+            document.addEventListener('keydown', function(event) {
+              if ((event.ctrlKey && (event.key === 's' || event.key === 'u')) || event.key === 'F12') {
+                event.preventDefault();
+                alert('This action is disabled.');
+              }
+            });
+          </script>
         
     </body>
 </html>

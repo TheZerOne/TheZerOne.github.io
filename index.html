@@ -80,8 +80,8 @@
                         <br>
                         <p class="about__text">Multiview cloud ERP software helps power some of the world’s leading companies; from healthcare providers to hospitality chains to asset management firms.</p>           
                             <br>
-                            <!-- <a href="multiview.html" class="main-btn">View Case Study</a> &emsp; &emsp; -->
-                            <a href="" class="main-btn">View Case Study</a> &emsp; &emsp;
+                            <a href="multiview.html" class="main-btn">View Case Study</a> &emsp; &emsp;
+                            <!-- <a href="" class="main-btn">View Case Study</a> &emsp; &emsp; -->
 
 
                             <a href="https://multiviewcorp.com/product" target="_blank" class="mains-btn">View Product Page</a>
@@ -266,5 +266,17 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+        <script>
+            // Disable right-click
+            document.addEventListener('contextmenu', event => event.preventDefault());
+          
+            // Disable Ctrl+S (Save Page), Ctrl+U (View Source), F12 (Dev Tools)
+            document.addEventListener('keydown', function(event) {
+              if ((event.ctrlKey && (event.key === 's' || event.key === 'u')) || event.key === 'F12') {
+                event.preventDefault();
+                alert('This action is disabled.');
+              }
+            });
+          </script>
     </body>
 </html>
